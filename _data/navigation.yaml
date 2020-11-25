@@ -1,0 +1,54 @@
+top_nav:
+  - title: Intro
+    url: /
+
+  - title: Tags
+    url: /pages/tags/alpha
+
+  - title: GitHub
+    url: /pages/resources/github
+
+  - title: Help
+    url: /pages/resources/help
+
+  - title: Playground
+    url: https://microsoft.github.io/tsdoc/
+    primary: true
+
+docs_nav:
+  - title: Introduction
+    subitems:
+      - title: What is TSDoc?
+        url: /
+      - title: How do I use TSDoc?
+        url: /pages/intro/using_tsdoc
+      - title: Project goals
+        url: /pages/intro/goals
+
+  - title: NPM packages
+    subitems:
+      - title: Overview
+        url: /pages/packages/overview
+      - title: '@microsoft/tsdoc'
+        url: /pages/packages/tsdoc
+      - title: '@microsoft/tsdoc-config'
+        url: /pages/packages/tsdoc-config
+      - title: eslint-plugin-tsdoc
+        url: /pages/packages/eslint-plugin-tsdoc
+
+  - title: TSDoc spec
+    subitems:
+      - title: Overview
+        url: /pages/spec/overview
+
+  - title: Tag reference
+    subitems:
+      - title: '@alpha'
+        url: /pages/tags/alpha
+
+  - title: Resources
+    subitems:
+      - title: Getting help
+        url: /pages/resources/help
+      - title: GitHub
+        url: /pages/resources/github

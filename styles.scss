@@ -1,0 +1,20 @@
+---
+---
+// Core variables and mixins
+@import "variables.scss";
+
+@import "bootstrap/bootstrap";
+
+@import "mixins.scss";
+
+@import "docsite.scss";
+
+// Global CSS
+@import "global.scss";
+
+// Components
+@import "masthead.scss";
+@import "algolia.scss";
+@import "home.scss";
+
+@import "syntax.scss";

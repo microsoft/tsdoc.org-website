@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    {% include base/meta.html %}
+
+    {% if page.title %}
+    <title>TSDoc: {{ page.title }}</title>
+    {% else %}
+    <title>TSDoc</title>
+    {% endif %}
+
+    {% include base/styles.html %}
+  </head>
+
+  <body>
+    {% include base/top_nav.html %}
+
+    {{ content }}
+
+    {% include base/footer.html %}
+  </body>
+</html>
