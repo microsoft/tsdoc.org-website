@@ -29,8 +29,6 @@ docs_nav:
 
   - title: NPM packages
     subitems:
-      - title: Overview
-        url: /pages/packages/overview
       - title: '@microsoft/tsdoc'
         url: /pages/packages/tsdoc
       - title: '@microsoft/tsdoc-config'

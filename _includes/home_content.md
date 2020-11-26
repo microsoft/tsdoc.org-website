@@ -46,7 +46,7 @@ _**Why can't JSDoc be the standard?**_  Unfortunately the JSDoc grammar is not r
 ## Who's involved?
 
 Implementation:
-- [Pete Gonzalez](https://github.com/octogonz) original architect
+- [Pete Gonzalez](https://github.com/octogonz) created the initial concept and parser API
 - [Ron Buckton](https://github.com/rbuckton) redesigned the declaration reference syntax and has been working on a rewrite of the markdown parser
 - [Ian Clanton-Thuon](https://github.com/iclanton/) contributed the TSDoc Playground
 - [Brian Folts](https://github.com/bafolts) contributed `eslint-plugin-tsdoc` package for ESLint
@@ -54,7 +54,7 @@ Implementation:
 
 (Should your name appear here? [Suggest an update](https://github.com/microsoft/tsdoc.org-website/edit/master/_includes/home_content.md) to this page.)
 
-Providing input for the design and spec:
+Contributing design input:
 - [TypeScript](http://www.typescriptlang.org) compiler group at Microsoft
 - [API Extractor](https://aka.ms/extractor) community
 - [DocFX](https://dotnet.github.io/docfx/) maintainers

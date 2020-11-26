@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How do I use TSDoc?
+title: How can I use TSDoc?
 navigation_source: docs_nav
 ---
 
