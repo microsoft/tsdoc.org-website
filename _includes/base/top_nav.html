@@ -1,9 +1,9 @@
 <!-- Navigation -->
-<nav class="navbar sticky-top navbar-light bg-light flex-md-nowrap docsite-header">
+<nav class="navbar sticky-top navbar-light flex-md-nowrap docsite-header">
   <div class="container-fluid">
     <a class="navbar-brand" href="{{ site.baseurl }}/">
-      <img src={{ "/images/tsdoc.svg" | absolute_url }}
-            style="height: 50px" alt="TSDoc" title="TSDoc" />
+      <img src={{ "/images/tsdoc-white.svg" | absolute_url }}
+            style="height: 40px" alt="TSDoc" title="TSDoc" />
     </a>
     <div>
 
@@ -25,7 +25,7 @@
       <!-- SEARCH BOX - END -->
 
       {% for link in site.data.navigation.top_nav %}
-        <a class="btn {% if link.primary %} btn-primary {% endif %}" href="{{ link.url | absolute_url }}">
+        <a class="btn navbar-btn {% if link.primary %} navbar-btn-main {% endif %}" href="{{ link.url | absolute_url }}">
           {{ link.title }}
         </a>
       {% endfor %}

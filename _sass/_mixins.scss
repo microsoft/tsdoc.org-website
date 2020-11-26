@@ -11,3 +11,17 @@
 @mixin body-font {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+.navbar {
+  background-color: $primary;
+}
+
+.navbar-btn {
+  color: $white !important;
+  background-color: none !important;
+}
+
+.navbar-btn-main {
+  color: $white !important;
+  background-color: $primary-dark !important;
+}
