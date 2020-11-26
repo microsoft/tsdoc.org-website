@@ -20,10 +20,12 @@ docs_nav:
     subitems:
       - title: What is TSDoc?
         url: /
-      - title: How do I use TSDoc?
-        url: /pages/intro/using_tsdoc
       - title: Project goals
         url: /pages/intro/goals
+      - title: How can I use TSDoc?
+        url: /pages/intro/using_tsdoc
+      - title: Project roadmap
+        url: /pages/intro/roadmap
 
   - title: NPM packages
     subitems:
