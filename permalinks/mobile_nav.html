@@ -25,7 +25,7 @@ navigation_source: docs_nav
               <ul>
                 {% for subitem in item.subitems %}
                   {% assign temp = subitem.url | append: '/' %}
-                  <li><a href="{{ subitem.url }}">{{ subitem.title }}</a></li>
+                  <li><a href="{{ subitem.url | absolute_url }}">{{ subitem.title }}</a></li>
                 {% endfor %}
               </ul>
             {% else %}

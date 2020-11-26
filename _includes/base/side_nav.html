@@ -12,9 +12,9 @@
               {% assign temp = subitem.url | append: '/' %}
               {% if page.url == subitem.url or page.url == temp %}
                 <li id="docsite-side-nav-selection" class="docsite-side-nav-selection">
-                  <a href="{{ subitem.url }}">{{ subitem.title }}</a></li>
+                  <a href="{{ subitem.url | absolute_url }}">{{ subitem.title }}</a></li>
               {% else %}
-                <li><a href="{{ subitem.url }}">{{ subitem.title }}</a></li>
+                <li><a href="{{ subitem.url | absolute_url }}">{{ subitem.title }}</a></li>
               {% endif %}
 
             {% endfor %}

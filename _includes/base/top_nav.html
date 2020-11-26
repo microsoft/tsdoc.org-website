@@ -20,7 +20,7 @@
         var searchClient = algoliasearch('{{ site.algolia.application_id }}', '{{ site.algolia.search_only_api_key }}');
         window.searchIndex = searchClient.initIndex('{{ site.algolia.index_name }}');
       </script>
-      <script src="/scripts/top_nav.js"></script>
+      <script src="{{ site.baseurl }}/scripts/top_nav.js"></script>
 
       <!-- SEARCH BOX - END -->
 
