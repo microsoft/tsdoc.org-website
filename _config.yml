@@ -17,7 +17,7 @@ title: TSDoc
 description: A doc comment standard for TypeScript
 
 # Location of the Open Graph image (1200x630 recommended size, must be an absolute URL)
-logo: https://microsoft.github.io/tsdoc-website/images/tsdoc-ograph.png
+logo: https://tsdoc.org/images/tsdoc-ograph.png
 
 # "true" or "false" to indicate whether to provide a download URL
 show_downloads: false
@@ -50,13 +50,13 @@ disqus:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://microsoft.github.io
+url: https://tsdoc.org
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "/tsdoc-website"
+baseurl: ""
 
 #
 # !! You don't need to change any of the configuration flags below !!
@@ -85,7 +85,7 @@ sass:
 # Our login account is: @rushbot (GitHub alias)
 algolia:
   application_id: 'W2G1E3U5T0'
-  index_name: 'tsdoc'
+  index_name: 'tsdoc.org'
   search_only_api_key: 'a0ab6dfc3db0c301b0ca8e725af85641'
 
   # The default is to only consider <p> tags.  That also picks up <p> inside other

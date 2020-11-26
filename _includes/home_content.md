@@ -52,7 +52,7 @@ Implementation:
 - [Brian Folts](https://github.com/bafolts) contributed `eslint-plugin-tsdoc` package for ESLint
 - many other contributors who implemented features and bugfixes!
 
-(Should your name appear here? [Suggest an update](https://github.com/microsoft/tsdoc-website/edit/master/_includes/home_content.md) to this page.)
+(Should your name appear here? [Suggest an update](https://github.com/microsoft/tsdoc.org-website/edit/master/_includes/home_content.md) to this page.)
 
 Providing input for the design and spec:
 - [TypeScript](http://www.typescriptlang.org) compiler group at Microsoft
