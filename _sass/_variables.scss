@@ -25,8 +25,8 @@ $green: #28a745 !default;
 $teal: #20c997 !default;
 $cyan: #17a2b8 !default;
 
-$primary: #1e9348 !default;
-$primary-dark: #006931 !default;
+$primary: #006931 !default;
+$logo-color: #1e9348 !default;
 
 $secondary: $gray-600 !default;
 $success: $green !default;
@@ -38,3 +38,7 @@ $danger: $red !default;
 $light: #f0f0f0 !default;
 
 $dark: $gray-800 !default;
+
+
+$link-color:                $primary;
+$link-hover-color:          $primary;
