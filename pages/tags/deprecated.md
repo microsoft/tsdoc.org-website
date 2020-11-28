@@ -31,4 +31,4 @@ export class VisualControl {
 
 ## See also
 
-- [Issue 131](https://github.com/microsoft/tsdoc/issues/131): How to deprecate a single parameter
+- [Issue #131](https://github.com/microsoft/tsdoc/issues/131): How to deprecate a single parameter

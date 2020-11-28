@@ -53,4 +53,4 @@ interface IWarningOptions {
 
 ## See also
 
-- [RFC 27](https://github.com/microsoft/tsdoc/issues/27): `@defaultValue` to indicate a default value
+- [RFC #27](https://github.com/microsoft/tsdoc/issues/27): `@defaultValue` to indicate a default value
