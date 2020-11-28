@@ -40,6 +40,8 @@ docs_nav:
     subitems:
       - title: Overview
         url: /pages/spec/overview
+      - title: Tag kinds
+        url: /pages/spec/tag_kinds
       - title: Standardization groups
         url: /pages/spec/standardization_groups
 
@@ -47,6 +49,53 @@ docs_nav:
     subitems:
       - title: '@alpha'
         url: /pages/tags/alpha
+      - title: '@beta'
+        url: /pages/tags/beta
+      - title: '@deprecated'
+        url: /pages/tags/deprecated
+      - title: '@defaultValue'
+        url: /pages/tags/defaultvalue
+      - title: '@eventProperty'
+        url: /pages/tags/eventproperty
+      - title: '@example'
+        url: /pages/tags/example
+      - title: '@experimental'
+        url: /pages/tags/experimental
+      - title: '@inheritDoc'
+        url: /pages/tags/inheritdoc
+      - title: '@internal'
+        url: /pages/tags/internal
+      - title: '@label'
+        url: /pages/tags/label
+      - title: '@link'
+        url: /pages/tags/link
+      - title: '@override'
+        url: /pages/tags/override
+      - title: '@packageDocumentation'
+        url: /pages/tags/packagedocumentation
+      - title: '@param'
+        url: /pages/tags/param
+      - title: '@privateRemarks'
+        url: /pages/tags/privateremarks
+      - title: '@public'
+        url: /pages/tags/public
+      - title: '@readonly'
+        url: /pages/tags/readonly
+      - title: '@remarks'
+        url: /pages/tags/remarks
+      - title: '@returns'
+        url: /pages/tags/returns
+      - title: '@sealed'
+        url: /pages/tags/sealed
+      - title: '@see'
+        url: /pages/tags/see
+      - title: '@throws'
+        url: /pages/tags/throws
+      - title: '@typeParam'
+        url: /pages/tags/typeparam
+      - title: '@virtual'
+        url: /pages/tags/virtual
+
 
   - title: Resources
     subitems:

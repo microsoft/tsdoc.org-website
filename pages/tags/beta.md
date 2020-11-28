@@ -1,17 +1,20 @@
 ---
 layout: page
-title: '@alpha'
+title: '@beta'
 navigation_source: docs_nav
 ---
 
 | Standardization: | [Discretionary]({% link pages/spec/standardization_groups.md %}) |
 | Syntax kind: | [Modifier]({% link pages/spec/tag_kinds.md %}) |
+| Synonyms: | [@experimental]({% link pages/tags/experimental.md %}) |
+
 
 ## Suggested meaning
 
-Designates that an API item's release stage is "alpha". It is intended to be used by
-third-party developers eventually, but has not yet been released.  The tooling may trim the declaration from
-a public release.
+Designates that an API item's release stage is "beta".  It has been released to third-party developers experimentally
+for the purpose of collecting feedback.  The API should not be used in production, because its contract may
+change without notice.  The tooling may trim the declaration from a public release, but may include it in a
+developer preview release.
 
 
 ## See also
