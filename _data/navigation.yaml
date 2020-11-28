@@ -40,6 +40,8 @@ docs_nav:
     subitems:
       - title: Overview
         url: /pages/spec/overview
+      - title: Standardization groups
+        url: /pages/spec/standardization_groups
 
   - title: Tag reference
     subitems:
