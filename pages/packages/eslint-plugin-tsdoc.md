@@ -34,7 +34,7 @@ This ESLint plugin provides a rule for validating that TypeScript doc comments c
     }
     ```
 
-2.  Add the `eslint-plugin-tsdoc` dependency to your project:
+2.  Add the **eslint-plugin-tsdoc** dependency to your project:
 
     ```bash
     $ cd my-project

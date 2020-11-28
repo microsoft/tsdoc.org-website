@@ -7,12 +7,12 @@ navigation_source: docs_nav
 [NPM package](https://www.npmjs.com/package/@microsoft/tsdoc)<br/>
 [CHANGELOG.md](https://github.com/microsoft/tsdoc/blob/master/tsdoc/CHANGELOG.md)
 
-The `@microsoft/tsdoc` package is the reference implementation of a parser for the TSDoc syntax.
+The **@microsoft/tsdoc** package is the reference implementation of a parser for the TSDoc syntax.
 You cannot use it directly.  It is an engine component intended to be incorporated into
 [other documentation tools]({% link pages/intro/using_tsdoc.md %}).
 
 If you are implementing a tool that needs to extract information from TypeScript code comments,
-`@microsoft/tsdoc` provides an easy solution that will correctly implement TSDoc.
+**@microsoft/tsdoc** provides an easy solution that will correctly implement TSDoc.
 
 
 ## Can't I just use a RegExp?
@@ -99,7 +99,7 @@ This leads to a couple insights:
 
 ## Invoking the TSDoc parser
 
-Here's how we might implement `isApiInternal()` using the `@microsoft/tsdoc` engine:
+Here's how we might implement `isApiInternal()` using the **@microsoft/tsdoc** engine:
 
 ```ts
 import { TSDocParser, ParserContext } from '@microsoft/tsdoc';

@@ -8,7 +8,7 @@ navigation_source: docs_nav
 [CHANGELOG.md](https://github.com/microsoft/tsdoc/blob/master/tsdoc-config/CHANGELOG.md)
 
 
-The `@microsoft/tsdoc-config` package is an optional add-on for loading the **tsdoc.json** file format that enables
+The **@microsoft/tsdoc-config** package is an optional add-on for loading the **tsdoc.json** file format that enables
 users to define custom TSDoc tags.  (This functionality was moved to its own package because it requires external
 dependencies such as NodeJS and `ajv`, whereas the main package is fully self-contained.)
 
@@ -23,7 +23,7 @@ The **tsdoc.json** file conforms to the [tsdoc.schema.json](
 https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json) JSON schema.  It defines tags using
 similar fields as the
 [TSDocTagDefinition](https://github.com/microsoft/tsdoc/blob/master/tsdoc/src/configuration/TSDocTagDefinition.ts)
-API used by `TSDocParser` from `@microsoft/tsdoc`.
+API used by `TSDocParser` from **@microsoft/tsdoc**.
 
 Here's a simple example:
 
@@ -60,7 +60,7 @@ a list of paths that will be mixed in with the current file:
 
 ## API Usage
 
-The code sample below illustrates how to invoke the `@microsoft/tsdoc-config` API to load a
+The code sample below illustrates how to invoke the **@microsoft/tsdoc-config** API to load a
 **tsdoc.json** file:
 
 ```ts
