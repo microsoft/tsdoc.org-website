@@ -14,6 +14,10 @@ This inline tag is used to automatically generate an API item's documentation by
 API item.  The inline tag parameter contains a reference to the other item, which may be an unrelated class,
 or even an import from a separate NPM package.
 
+> Note: The notation for declaration references has not been finalized.  See GitHub
+> [issue #9](https://github.com/microsoft/tsdoc/issues/9)
+
+
 ### What gets copied
 
 The `@inheritDoc` tag does not copy the entire comment body. Only the following components are copied:
@@ -27,5 +31,38 @@ The `@inheritDoc` tag does not copy the entire comment body. Only the following 
 Other tags such as `@defaultValue` or `@example` are not copied, and need to be explicitly included after
 the `@inheritDoc` tag.
 
-> Note: The notation for API item references has not been finalized.  See GitHub
-> [issue #9](https://github.com/microsoft/tsdoc/issues/9)
+
+## Example
+
+```ts
+import { Serializer } from 'example-library';
+
+/**
+ * An interface describing a widget.
+ * @public
+ */
+export interface IWidget {
+  /**
+   * Draws the widget on the display surface.
+   * @param x - the X position of the widget
+   * @param y - the Y position of the widget
+   */
+  public draw(x: number, y: number): void;
+}
+
+/** @public */
+export class Button implements IWidget {
+  /** {@inheritDoc IWidget.draw} */
+  public draw(x: number, y: number): void {
+    . . .
+  }
+
+  /**
+   * {@inheritDoc example-library#Serializer.writeFile}
+   * @deprecated Use {@link example-library#Serializer.writeFile} instead.
+   */
+  public save(): void {
+    . . .
+  }
+}
+```

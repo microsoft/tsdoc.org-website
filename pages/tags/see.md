@@ -13,7 +13,11 @@ navigation_source: docs_nav
 Used to build a list of references to an API item or other resource that may be related to the
 current item.
 
-For example:
+> Note: JSDoc attempts to automatically hyperlink the text immediately after `@see`.  Because this is ambiguous
+> with plain text, TSDoc instead requires an explicit `{@link}` tag to make hyperlinks.
+
+
+## Example
 
 ```ts
 /**
@@ -42,5 +46,8 @@ Parses a string containing a Uniform Resource Locator (URL).
 - your developer SDK for code samples
 ```
 
-NOTE: JSDoc attempts to automatically hyperlink the text immediately after `@see`.  Because this is ambiguous
-with plain text, TSDoc instead requires an explicit `{@link}` tag to make hyperlinks.
+
+## See also
+
+- [RFC #235](https://github.com/microsoft/tsdoc/issues/235):
+  `@see` block tag specifies an item for a "See Also" section

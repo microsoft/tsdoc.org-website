@@ -18,7 +18,31 @@ A documentation tool may enforce that the `@virtual`, `@override`, and/or `@seal
 applied, but this is not required by the TSDoc standard.
 
 
+## Example
+
+In the code sample below, `Child.render()` overrides the virtual member `Base.render()`:
+
+```ts
+class Base {
+  /** @virtual */
+  public render(): void {
+  }
+
+  /** @sealed */
+  public initialize(): void {
+  }
+}
+
+class Child extends Base {
+  /** @override */
+  public render(): void;
+}
+```
+
+
 ## See also
 
 - [@sealed]({% link pages/tags/sealed.md %}) tag
 - [@virtual]({% link pages/tags/virtual.md %}) tag
+- [C# reference: override](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/override):
+  an equivalent feature from another programming language

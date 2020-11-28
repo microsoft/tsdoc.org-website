@@ -15,9 +15,36 @@ declaration from a public release. In some implementations, certain designated p
 consume  internal API items, e.g. because the packages are components of the same product.
 
 
+## Example
+
+```ts
+/**
+ * Represents a book in the catalog.
+ * @public
+ */
+export class Book {
+  /**
+   * The title of the book.
+   * @internal
+   */
+  public get _title(): string;
+
+  /**
+   * The author of the book.
+   */
+  public get author(): string;
+};
+```
+
+In this example, `Book.author` inherits its `@public` designation from the containing class,
+whereas `Book._title` is marked as "internal".
+
+
 ## See also
 
 - [@alpha]({% link pages/tags/alpha.md %}) tag
 - [@beta]({% link pages/tags/beta.md %}) tag
 - [@experimental]({% link pages/tags/experimental.md %}) tag
 - [@public]({% link pages/tags/public.md %}) tag
+- [Trimming based on release tags](https://api-extractor.com/pages/setup/configure_rollup/#trimming-based-on-release-tags):
+  a reference implementation of this feature

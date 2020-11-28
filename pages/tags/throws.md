@@ -35,3 +35,8 @@ For example:
  */
 function fetchBookByIsbn(isbnCode: string): Book;
 ```
+
+
+## See also
+
+- [RFC 171](https://github.com/microsoft/tsdoc/issues/171): `@throws` tag for documenting exceptions

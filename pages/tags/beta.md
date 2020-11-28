@@ -17,9 +17,36 @@ change without notice.  The tooling may trim the declaration from a public relea
 developer preview release.
 
 
+## Example
+
+```ts
+/**
+ * Represents a book in the catalog.
+ * @public
+ */
+export class Book {
+  /**
+   * The title of the book.
+   * @beta
+   */
+  public get title(): string;
+
+  /**
+   * The author of the book.
+   */
+  public get author(): string;
+};
+```
+
+In this example, `Book.author` inherits its `@public` designation from the containing class,
+whereas `Book.title` is marked as "beta".
+
+
 ## See also
 
-- [@beta]({% link pages/tags/beta.md %}) tag
+- [@alpha]({% link pages/tags/alpha.md %}) tag
 - [@experimental]({% link pages/tags/experimental.md %}) tag
-- [@public]({% link pages/tags/public.md %}) tag
 - [@internal]({% link pages/tags/internal.md %}) tag
+- [@public]({% link pages/tags/public.md %}) tag
+- [Trimming based on release tags](https://api-extractor.com/pages/setup/configure_rollup/#trimming-based-on-release-tags):
+  a reference implementation of this feature
