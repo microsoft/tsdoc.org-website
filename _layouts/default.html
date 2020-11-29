@@ -4,6 +4,8 @@
   <head>
     {% include base/meta.html %}
 
+    {{ page.head_content }}
+
     {% if page.title %}
     <title>TSDoc: {{ page.title }}</title>
     {% else %}
