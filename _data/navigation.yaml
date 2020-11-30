@@ -6,7 +6,7 @@ top_nav:
     url: /pages/tags/alpha
 
   - title: GitHub
-    url: /pages/resources/github
+    url: /pages/contributing/github
 
   - title: Help
     url: /pages/resources/help
@@ -97,11 +97,19 @@ docs_nav:
         url: /pages/tags/virtual
 
 
+  - title: Contributing
+    subitems:
+      - title: GitHub
+        url: /pages/contributing/github
+      - title: Building the projects
+        url: /pages/contributing/building
+      - title: Submitting a PR
+        url: /pages/contributing/pr_checklist
+
+
   - title: Resources
     subitems:
       - title: Getting help
         url: /pages/resources/help
       - title: TSDoc Playground
         url: /play
-      - title: GitHub
-        url: /pages/resources/github

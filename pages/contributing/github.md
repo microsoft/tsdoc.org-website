@@ -21,3 +21,8 @@ Supplementary project folders are:
 The `tsdoc.org` website is hosted in this Github repo:
 
   [https://github.com/microsoft/tsdoc.org-website](https://github.com/microsoft/tsdoc.org-website)
+
+
+<p style="text-align: right; font-weight: bold; font-size: larger; padding-top: 10px;">
+👉 Next: <a href="{% link pages/contributing/building.md %}">Building the projects</a>
+</p>
