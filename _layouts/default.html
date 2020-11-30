@@ -6,7 +6,9 @@
 
     {{ page.head_content }}
 
-    {% if page.title %}
+    {% if page.full_title %}
+    <title>{{ page.full_title }}</title>
+    {% elsif page.title %}
     <title>TSDoc: {{ page.title }}</title>
     {% else %}
     <title>TSDoc</title>
