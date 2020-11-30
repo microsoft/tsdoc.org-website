@@ -16,7 +16,7 @@ The package folders are:
 Supplementary project folders are:
 - [/api-demo](https://github.com/microsoft/tsdoc/tree/master/api-demo): a code sample showing how to use
   the **@microsoft/tsdoc** library
-- [/playground](https://github.com/microsoft/tsdoc/tree/master/playground): the [TSDoc Playground](https://microsoft.github.io/tsdoc/) web application
+- [/playground](https://github.com/microsoft/tsdoc/tree/master/playground): the [TSDoc Playground](/play) web application
 
 The `tsdoc.org` website is hosted in this Github repo:
 

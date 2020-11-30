@@ -10,7 +10,7 @@ Even if you have not enabled a documentation tool yet for your project, adopting
 
 👉 **To check for mistakes in your code,** install the [eslint-plugin-tsdoc](https://www.npmjs.com/package/eslint-plugin-tsdoc) plugin for ESLint
 
-👉 **To see how your comments would be rendered** by a compatible documentation tool, try pasting your `/** */` comment into the [TSDoc Playground](https://microsoft.github.io/tsdoc/)!
+👉 **To see how your comments would be rendered** by a compatible documentation tool, try pasting your `/** */` comment into the [TSDoc Playground](/play)!
 
 👉 **Implementing a tool that needs to parse doc comments?** The [@microsoft/tsdoc](https://www.npmjs.com/package/@microsoft/tsdoc) package provides a professional quality parser.  The [api-demo](https://github.com/microsoft/tsdoc/tree/master/api-demo) folder contains sample code showing how to invoke the parser.
 

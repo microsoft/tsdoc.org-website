@@ -12,7 +12,7 @@ top_nav:
     url: /pages/resources/help
 
   - title: Playground
-    url: https://microsoft.github.io/tsdoc/
+    url: /play
     primary: true
 
 docs_nav:
@@ -101,5 +101,7 @@ docs_nav:
     subitems:
       - title: Getting help
         url: /pages/resources/help
+      - title: TSDoc Playground
+        url: /play
       - title: GitHub
         url: /pages/resources/github
