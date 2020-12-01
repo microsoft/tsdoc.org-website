@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Project goals
+title: Project roadmap
 navigation_source: docs_nav
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Project goals
+title: Approach
 navigation_source: docs_nav
 ---
 
