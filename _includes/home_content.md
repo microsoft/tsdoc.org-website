@@ -98,6 +98,6 @@ Contributing design input:
 
 ## Next steps
 
-👉 [Learn more]({% link pages/intro/approach.md %}) -- about the approach that characterize TSDoc
+👉 [Learn more]({% link pages/intro/approach.md %}) -- about the goals and approach
 
-👉 [Get started]({% link pages/intro/using_tsdoc.md %}) -- how can I use it?
+👉 [How can I use TSDoc?]({% link pages/intro/using_tsdoc.md %}) -- learn about tools and resources for developing with TSDoc
