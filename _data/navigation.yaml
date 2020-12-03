@@ -51,6 +51,8 @@ docs_nav:
         url: /pages/tags/alpha
       - title: '@beta'
         url: /pages/tags/beta
+      - title: '@decorator'
+        url: /pages/tags/decorator
       - title: '@deprecated'
         url: /pages/tags/deprecated
       - title: '@defaultValue'
