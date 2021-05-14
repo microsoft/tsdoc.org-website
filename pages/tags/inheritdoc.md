@@ -29,7 +29,8 @@ The `@inheritDoc` tag does not copy the entire comment body. Only the following 
 - `@returns` block
 
 Other tags such as `@defaultValue` or `@example` are not copied, and need to be explicitly included after
-the `@inheritDoc` tag.
+the `@inheritDoc` tag. When the `@inheritDoc` tag is specified, neither the summary section nor the `@remarks`
+section may be specified in the comment.
 
 
 ## Example

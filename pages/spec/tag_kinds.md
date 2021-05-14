@@ -78,13 +78,19 @@ by `{` and `}` characters.  The `@link` and `@inheritDoc` tags are examples of i
 ```ts
 class Book {
   /**
-   * Saves the book to the database.
+   * Writes the book information into a JSON file.
    *
    * @remarks
-   * {@inheritDoc example-library#Serializer.writeFile}
-   *
-   * @deprecated
-   * Use {@link example-library#Serializer.writeFile} instead of this method.
+   * This method saves the book information to a JSON file conforming to the standardized
+   * {@link http://example.com/ | Example Book Interchange Format}.
+   */
+  public writeFile(options?: IWriteFileOptions): void {
+    . . .
+  }
+
+  /**
+   * {@inheritDoc Book.writeFile}
+   * @deprecated Use {@link Book.writeFile} instead.
    */
   public save(): void {
     . . .
