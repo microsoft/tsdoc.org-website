@@ -1,18 +1,23 @@
 top_nav:
   - title: Intro
     url: /
+    label: 'Link Intro 1 of 5'
 
   - title: Tags
     url: /pages/tags/alpha
+    label: 'Link Tags 2 of 5'
 
   - title: GitHub
     url: /pages/contributing/github
+    label: 'Link Github 3 of 5'
 
   - title: Help
     url: /pages/resources/help
+    label: 'Link Help 4 of 5'
 
   - title: Playground
     url: /play
+    label: 'Link Playground 5 of 5'
     primary: true
 
 docs_nav:

@@ -19,7 +19,12 @@
 .navbar-btn {
   color: $white !important;
   background-color: none !important;
+  &:focus {
+    color: $white !important;
+    background-color: $primary !important;
+  }
 }
+
 
 .navbar-btn-main {
   color: $white !important;

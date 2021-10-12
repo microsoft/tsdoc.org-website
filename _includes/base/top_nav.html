@@ -23,9 +23,9 @@
       <script src="{{ site.baseurl }}/scripts/top_nav.js"></script>
 
       <!-- SEARCH BOX - END -->
-
+      
       {% for link in site.data.navigation.top_nav %}
-        <a class="btn navbar-btn {% if link.primary %} navbar-btn-main {% endif %}" href="{{ link.url | absolute_url }}">
+        <a class="btn navbar-btn " aria-label="{{link.label}}" href="{{ link.url | absolute_url }}">
           {{ link.title }}
         </a>
       {% endfor %}
