@@ -19,9 +19,12 @@
 .navbar-btn {
   color: $white !important;
   background-color: none !important;
+  
   &:focus {
     color: $white !important;
-    background-color: $primary !important;
+    text-decoration: underline solid $white 2px;
+    outline: none;
+    box-shadow: none;
   }
 }
 
