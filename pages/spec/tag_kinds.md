@@ -54,7 +54,7 @@ block tag.
 
 In normalized form, the modifier tags appear on a single line at the bottom of the doc comment.
 
-**Examples of block tags:**
+**Examples of modifier tags:**
 ```ts
 /**
  * This is the special summary section.
