@@ -13,7 +13,6 @@ These milestones were completed recently:
 - Convert Microsoft's API Extractor tool to use **@microsoft/tsdoc** (replacing its proprietary AEDoc engine);
   this demonstrates that TSDoc can meet the needs of
   [a large production API docs website](https://docs.microsoft.com/en-us/javascript/api/sp-core-library?view=sp-typescript-latest)
-- Implement an ESLint plugin for validating TSDoc syntax
 - Introduce a `tsdoc.json` file format to enable custom tag definitions to be portable between tools
 - Launch a `tsdoc.org` website providing more complete documentation (finally!)
 
