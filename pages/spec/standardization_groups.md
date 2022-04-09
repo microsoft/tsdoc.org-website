@@ -6,7 +6,7 @@ navigation_source: docs_nav
 
 Three "standardization groups" are used to classify the standard TSDoc tags, according to the
 the level of support expected from compatible documentation tools.  They correspond to the
-[Standardization enum](https://github.com/microsoft/tsdoc/blob/master/tsdoc/src/details/Standardization.ts)
+[Standardization enum](https://github.com/microsoft/tsdoc/blob/main/tsdoc/src/details/Standardization.ts)
 in the parser API.
 
 

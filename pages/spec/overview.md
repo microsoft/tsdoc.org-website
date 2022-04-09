@@ -17,12 +17,12 @@ implementation of a parser, and many syntax details are explained in the code co
 
 The **"old"** syntax for declaration references is detailed in this technical note:
 
-[/spec/code-snippets/DeclarationReferences.ts](https://github.com/microsoft/tsdoc/blob/master/spec/code-snippets/DeclarationReferences.ts)
+[/spec/code-snippets/DeclarationReferences.ts](https://github.com/microsoft/tsdoc/blob/main/spec/code-snippets/DeclarationReferences.ts)
 
 The **"new"** syntax for declaration references is described in this grammar:
 
-[/tsdoc/src/beta/DeclarationReference.grammarkdown](https://github.com/microsoft/tsdoc/blob/master/tsdoc/src/beta/DeclarationReference.grammarkdown)
+[/tsdoc/src/beta/DeclarationReference.grammarkdown](https://github.com/microsoft/tsdoc/blob/main/tsdoc/src/beta/DeclarationReference.grammarkdown)
 
 Examples of the new syntax can be found in the
-[DeclarationReference.test.ts](https://github.com/microsoft/tsdoc/blob/master/tsdoc/src/beta/__tests__/DeclarationReference.test.ts)
+[DeclarationReference.test.ts](https://github.com/microsoft/tsdoc/blob/main/tsdoc/src/beta/__tests__/DeclarationReference.test.ts)
 file.

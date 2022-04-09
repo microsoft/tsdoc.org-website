@@ -25,8 +25,8 @@ a particular feature will get implemented. That said, here’s some feature area
 future investments:
 
 - Collect all the design specifications from the GitHub "RFC" issues and document them on the website
-- Finish integrating the [new declaration reference syntax](https://github.com/microsoft/tsdoc/tree/master/tsdoc/src/beta)
+- Finish integrating the [new declaration reference syntax](https://github.com/microsoft/tsdoc/tree/main/tsdoc/src/beta)
   and deprecate the old syntax
 - Expand the parser to support a much broader set of CommonMark syntax elements
-- Expand the capabilities of the [tsdoc.json](https://github.com/microsoft/tsdoc/tree/master/tsdoc-config) config file
+- Expand the capabilities of the [tsdoc.json](https://github.com/microsoft/tsdoc/tree/main/tsdoc-config) config file
 - Write up a formal grammar specification

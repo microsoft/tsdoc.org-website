@@ -5,7 +5,7 @@ navigation_source: docs_nav
 ---
 
 [NPM package](https://www.npmjs.com/package/eslint-plugin-tsdoc)<br/>
-[CHANGELOG.md](https://github.com/microsoft/tsdoc/blob/master/eslint-plugin/CHANGELOG.md)
+[CHANGELOG.md](https://github.com/microsoft/tsdoc/blob/main/eslint-plugin/CHANGELOG.md)
 
 This ESLint plugin provides a rule for validating that TypeScript doc comments conform to the
 [TSDoc specification](https://github.com/microsoft/tsdoc).

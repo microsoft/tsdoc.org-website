@@ -12,6 +12,6 @@ Even if you have not enabled a documentation tool yet for your project, adopting
 
 👉 **To see how your comments would be rendered** by a compatible documentation tool, try pasting your `/** */` comment into the [TSDoc Playground](/play)!
 
-👉 **Implementing a tool that needs to parse doc comments?** The [@microsoft/tsdoc](https://www.npmjs.com/package/@microsoft/tsdoc) package provides a professional quality parser.  The [api-demo](https://github.com/microsoft/tsdoc/tree/master/api-demo) folder contains sample code showing how to invoke the parser.
+👉 **Implementing a tool that needs to parse doc comments?** The [@microsoft/tsdoc](https://www.npmjs.com/package/@microsoft/tsdoc) package provides a professional quality parser.  The [api-demo](https://github.com/microsoft/tsdoc/tree/main/api-demo) folder contains sample code showing how to invoke the parser.
 
 👉 **Have an idea for an improvement?** We're using [GitHub issues](https://github.com/Microsoft/tsdoc/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) to discuss the TSDoc specification, library design, and project roadmap.
