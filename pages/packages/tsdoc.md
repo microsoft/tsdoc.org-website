@@ -5,7 +5,7 @@ navigation_source: docs_nav
 ---
 
 [NPM package](https://www.npmjs.com/package/@microsoft/tsdoc)<br/>
-[CHANGELOG.md](https://github.com/microsoft/tsdoc/blob/master/tsdoc/CHANGELOG.md)
+[CHANGELOG.md](https://github.com/microsoft/tsdoc/blob/main/tsdoc/CHANGELOG.md)
 
 The **@microsoft/tsdoc** package is the reference implementation of a parser for the TSDoc syntax.
 You cannot use it directly.  It is an engine component intended to be incorporated into
@@ -141,7 +141,7 @@ console.log(isApiInternal(input));
 The library provides a number of other nice features:
 
 - It tracks source code coordinates for every input token.  This enables precise error messages
-  for every token, and can be used to implement [syntax highlighting](https://github.com/microsoft/tsdoc/blob/master/playground/src/SyntaxStyler/DocNodeSyntaxStyler.ts).
+  for every token, and can be used to implement [syntax highlighting](https://github.com/microsoft/tsdoc/blob/main/playground/src/SyntaxStyler/DocNodeSyntaxStyler.ts).
 
 - It provides an Abstract Syntax Tree that makes it easy
   to [render rich text](https://github.com/microsoft/tsdoc/blob/26c4bab8efb04bc5d1619585e1f071bcc10cf16a/playground/src/DocHtmlView.tsx#L140)
@@ -155,6 +155,6 @@ The library provides a number of other nice features:
 
 ## Invoking the TSDoc parser
 
-The [api-demo folder](https://github.com/microsoft/tsdoc/tree/master/api-demo) provides a more complete example.
+The [api-demo folder](https://github.com/microsoft/tsdoc/tree/main/api-demo) provides a more complete example.
 It also contains an "advanced" example, illustrating how to interface TSDoc with the parse tree returned by
 the TypeScript compiler engine.

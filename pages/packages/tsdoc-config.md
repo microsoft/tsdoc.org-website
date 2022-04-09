@@ -5,7 +5,7 @@ navigation_source: docs_nav
 ---
 
 [NPM package](https://www.npmjs.com/package/@microsoft/tsdoc-config)<br/>
-[CHANGELOG.md](https://github.com/microsoft/tsdoc/blob/master/tsdoc-config/CHANGELOG.md)
+[CHANGELOG.md](https://github.com/microsoft/tsdoc/blob/main/tsdoc-config/CHANGELOG.md)
 
 
 The **@microsoft/tsdoc-config** package is an optional add-on for loading the **tsdoc.json** file format that enables
@@ -22,7 +22,7 @@ until it finds a folder containing **tsconfig.json** or **package.json**, and th
 The **tsdoc.json** file conforms to the [tsdoc.schema.json](
 https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json) JSON schema.  It defines tags using
 similar fields as the
-[TSDocTagDefinition](https://github.com/microsoft/tsdoc/blob/master/tsdoc/src/configuration/TSDocTagDefinition.ts)
+[TSDocTagDefinition](https://github.com/microsoft/tsdoc/blob/main/tsdoc/src/configuration/TSDocTagDefinition.ts)
 API used by `TSDocParser` from **@microsoft/tsdoc**.
 
 Here's a simple example:
