@@ -20,7 +20,7 @@ until it finds a folder containing **tsconfig.json** or **package.json**, and th
 **tsdoc.json** from that location.
 
 The **tsdoc.json** file conforms to the [tsdoc.schema.json](
-https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json) JSON schema.  It defines tags using
+https://github.com/microsoft/tsdoc/blob/main/tsdoc/schemas/tsdoc.schema.json) JSON schema.  It defines tags using
 similar fields as the
 [TSDocTagDefinition](https://github.com/microsoft/tsdoc/blob/main/tsdoc/src/configuration/TSDocTagDefinition.ts)
 API used by `TSDocParser` from **@microsoft/tsdoc**.
