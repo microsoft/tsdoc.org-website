@@ -30,7 +30,7 @@ autocomplete('#search-input', { hint: false }, [
                 if (!resultHeading) {
                     resultHeading = suggestion.slug || suggestion.url || '(Untitled)';
                 }
-                var result = '<b>' + resultHeading + '</b>';
+                var result = '<b aria-live="assertive">' + resultHeading + '</b>';
                 if (suggestion._snippetResult && suggestion._snippetResult.content) {
                     result += '<br />' + suggestion._snippetResult.content.value;
                 }
@@ -40,7 +40,8 @@ autocomplete('#search-input', { hint: false }, [
                 else if (suggestion.content) {
                     result += '<br />' + suggestion.content;
                 }
-                return '<p>' + result + '</p>';
+                
+                return '<p>' + result + '</p>'; 
             }
         }
     }
