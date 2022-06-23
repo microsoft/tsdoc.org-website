@@ -40,7 +40,7 @@ autocomplete('#search-input', { hint: false }, [
           resultHeading = suggestion.slug || suggestion.url || '(Untitled)';
         }
 
-        let result = '<b>' + resultHeading + '</b>';
+        let result = '<b aria-live="assertive">' + resultHeading + '</b>';
 
         if (suggestion._snippetResult && suggestion._snippetResult.content) {
             result += '<br />' + suggestion._snippetResult.content.value;
