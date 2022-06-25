@@ -44,6 +44,6 @@ whereas `Book._title` is marked as "internal".
 - [@alpha]({% link pages/tags/alpha.md %}) tag
 - [@beta]({% link pages/tags/beta.md %}) tag
 - [@experimental]({% link pages/tags/experimental.md %}) tag
-- [@internal]({% link pages/tags/public.md %}) tag
+- [@internal]({% link pages/tags/internal.md %}) tag
 - [Trimming based on release tags](https://api-extractor.com/pages/setup/configure_rollup/#trimming-based-on-release-tags):
   a reference implementation of this feature
