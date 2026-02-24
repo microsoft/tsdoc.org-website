@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktsdoc_org=self.webpackChunktsdoc_org||[]).push([[6540],{7587(e,t,r){r.r(t),r.d(t,{default:()=>o});var s=r(829),c=r(4305);function o(){return s.createElement(c.A,null,s.createElement("iframe",{style:{flexGrow:1},src:"https://microsoft.github.io/tsdoc/"}))}}}]);
